@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<form>
+	<fields name="organization">
+		<fieldset name="organization"
+			label="PLG_USER_ORGANIZATION_SLIDER_LABEL"
+		>
+			<field
+				name="government affiliation"
+				type="text"
+				id="gov_affil"
+				description="PLG_USER_ORGANIZATION_FIELD_GOV_AFFIL_DESC"
+				filter="string"
+				label="PLG_USER_ORGANIZATION_FIELD_GOV_AFFIL_LABEL"
+				message="PLG_USER_ORGANIZATION_FIELD_GOV_AFFIL_MESSAGE"
+				size="30"
+			/>
+            
+			<field
+				name="organization"
+				type="text"
+				id="organization"
+				description="PLG_USER_ORGANIZATION_FIELD_ORG_DESC"
+				filter="string"
+				label="PLG_USER_ORGANIZATION_FIELD_ORG_LABEL"
+				message="PLG_USER_ORGANIZATION_FIELD_ORG_MESSAGE"
+				size="30"
+			/>
+		</fieldset>
+	</fields>
+</form>
