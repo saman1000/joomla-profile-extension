@@ -94,7 +94,7 @@
 			$form->loadFile('organization', false);
  
 			// Toggle whether the gov_affil field is required.
-			if ($this->params->get('profile-require_gov_affil', 1) > 0) {
+			if ($this->params->get('register-require_gov_affil', 1) > 0) {
 				$form->setFieldAttribute('gov_affil', 'required', $this->params->get('profile-require_gov_affil') == 2, 'organization');
 			} else {
 				$form->removeField('gov_affil', 'organization');
